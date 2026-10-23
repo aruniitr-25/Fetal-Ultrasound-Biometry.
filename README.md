@@ -12,7 +12,7 @@ The project implements and compares two distinct architectural methodologies to 
 * **Architecture:** Modified ResNet-18 configured for single-channel grayscale input.
 * **Mechanism:** The network maps raw pixel data directly to 8 continuous coordinate values representing the biometry endpoints. 
 
-### Task 2: Semantic Segmentation & CV Post-Processing
+### Task 2: Semantic Segmentation and CV Post Processing
 * **Approach:** Foreground-background pixel classification combined with deterministic geometric fitting.
 * **Architecture:** ResNet34-encoded U-Net trained with a combined BCE + Dice Loss to mitigate severe class imbalance.
 * **Mechanism:** The deep learning model predicts a binary mask of the fetal cranium. A classical computer vision algorithm (OpenCV) then extracts the largest contour and fits a parametric ellipse to mathematically derive the exact major/minor axis endpoints (BPD and OFD).
