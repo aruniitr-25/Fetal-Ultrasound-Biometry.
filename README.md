@@ -1,7 +1,7 @@
 # Fetal Ultrasound Biometry Extraction (Computer Vision)
 
 ## Overview
-This repository contains an end-to-end deep learning and computer vision pipeline designed to automate the measurement of fetal Biparietal Diameter (BPD) and Occipitofrontal Diameter (OFD) from noisy ultrasound imagery. 
+This repository contains an end to end deep learning and computer vision pipeline designed to automate the measurement of Fetal Biparietal Diameter (BPD) and Occipitofrontal Diameter (OFD) from noisy ultrasound imagery. 
 
 The project implements and compares two distinct architectural methodologies to extract biometry points: direct landmark regression and semantic segmentation with classical CV post-processing.
 
