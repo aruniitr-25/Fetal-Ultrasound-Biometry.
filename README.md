@@ -10,7 +10,7 @@ The project implements and compares two distinct architectural methodologies to 
 ### Task 1: Landmark Detection (Regression)
 * **Approach:** Direct spatial coordinate regression.
 * **Architecture:** Modified ResNet-18 configured for single-channel grayscale input.
-* **Mechanism:** The network maps raw pixel data directly to 8 continuous coordinate values representing the biometry endpoints. 
+* **Mechanism:** The network maps raw pixel data directly to 8 continuous coordinate values representing the biometry endpoints.
 
 ### Task 2: Semantic Segmentation and CV Post Processing
 * **Approach:** Foreground-background pixel classification combined with deterministic geometric fitting.
